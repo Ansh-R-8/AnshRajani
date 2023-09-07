@@ -1,0 +1,70 @@
+\documentclass[12pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\usepackage[scale=0.8]{geometry}
+\usepackage{fontawesome}
+
+\name{Ansh}{Rajani}
+\title{Computer Science and Data Science Enthusiast}
+\address{Medicaps University, Indore}
+\phone{(+91) 8770887600}
+\email{anshrajani123@gmail.com}
+\social[linkedin]{ansh-r}
+\social[github]{https://github.com/Ansh-R-8}
+
+\AtBeginDocument{
+    \recomputelengths 
+    \namefont{\fontsize{28}{34}\mdseries\upshape}
+    \titlefont{\fontsize{24}{28}\mdseries\upshape}
+    \addressfont{\fontsize{10}{12}\mdseries\upshape}
+    \sectionfont{\fontsize{20}{24}\mdseries\upshape}
+    \subsectionfont{\fontsize{18}{22}\mdseries\upshape}
+    \hintfont{\fontsize{12}{14}\mdseries\upshape}
+}
+
+\begin{document}
+
+\makecvtitle
+
+\section{About Me}
+\cvitem{}{\textbf{Passionate about leveraging computer science and data science to solve real-world problems.\newline Second-year Computer Science and Data Science enthusiast pursuing a B.Tech degree from Medicaps University, Indore, and a BS degree in Data Science and Application from IIT Madras.}}
+
+\cvitem{}{\textbf{Skills:} Proficient in Python and C, with a keen interest in data analytics.\newline Utilizes tools like Pandas, NumPy, and Matplotlib for effective data processing and visualization. Excellent in English communication.}
+\cvitem{}{\textbf{Aspiration:} Eager to apply my skills in a dynamic environment that encourages creativity and innovation. Committed to continuous learning and actively seeks opportunities to expand knowledge and contribute to impactful projects.}
+
+\section{Education}
+\cventry{}{B.Tech in Computer Science and Engineering (2nd year)}{Medicaps University}{Indore, India}{}{\textit{CGPA: 7.52/10.0}\newline}
+\cventry{}{BS in Data Science and Application}{IIT Madras}{Chennai, India}{}{\textit{CGPA: 7.8/10.0}\newline}
+
+\pagebreak % Force a page break here
+
+\section{Skills}
+\subsection{Programming}
+\cvitem{}{\faCode{} C, \faPython{} Python, OOP}
+
+\subsection{Data Analytics}
+\cvitem{}{\textbf{Tools:} Pandas, NumPy, Matplotlib, Microsoft Excel}
+
+\subsection{Communication}
+\cvitem{}{English}
+
+\section{\Large Projects} % Increased font size
+\cventry{}{Snake Game using Python:}{}{}{}{\vspace{12pt}}{\large Developed a classic Snake Game using Python and the Pygame library. Implemented features like snake movement, collision detection, and score tracking. The game provides an interactive and enjoyable user experience.}{\vspace{12pt}}
+\subsection{Google Collab Notebook}
+\cvitem{\faGoogle}{\href{https://colab.research.google.com/}{https://colab.research.google.com/drive/1u0nJis2FDOCKTRHz-dUnMBWnQ4xgmC63?usp=sharing}}{\vspace{6pt}}{\large Made a google collab notebook which contains notes of OOP using pandas Dataframe.}
+\section{Hobbies}
+\cvitem{}{\begin{itemize}
+    \item[\faChevronRight] \textbf{Aptitude Challenges}
+    \item[\faChevronRight] \textbf{Sports: Football and Badminton}
+    \item[\faChevronRight] \textbf{Gardening}
+\end{itemize}}
+
+
+
+
+
+\vspace{12pt} % Adjust the value (12pt) to increase or decrease the gap
+
+\end{document}
