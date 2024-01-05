@@ -1,70 +1,174 @@
-\documentclass[12pt,a4paper,sans]{moderncv}
-
-\moderncvstyle{banking}
-\moderncvcolor{blue}
-
-\usepackage[scale=0.8]{geometry}
-\usepackage{fontawesome}
-
-\name{Ansh}{Rajani}
-\title{Computer Science and Data Science Enthusiast}
-\address{Medicaps University, Indore}
-\phone{(+91) 8770887600}
-\email{anshrajani123@gmail.com}
-\social[linkedin]{ansh-r}
-\social[github]{https://github.com/Ansh-R-8}
-
-\AtBeginDocument{
-    \recomputelengths 
-    \namefont{\fontsize{28}{34}\mdseries\upshape}
-    \titlefont{\fontsize{24}{28}\mdseries\upshape}
-    \addressfont{\fontsize{10}{12}\mdseries\upshape}
-    \sectionfont{\fontsize{20}{24}\mdseries\upshape}
-    \subsectionfont{\fontsize{18}{22}\mdseries\upshape}
-    \hintfont{\fontsize{12}{14}\mdseries\upshape}
-}
-
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\usepackage{xcolor}
 \begin{document}
 
-\makecvtitle
 
-\section{About Me}
-\cvitem{}{\textbf{Passionate about leveraging computer science and data science to solve real-world problems.\newline Second-year Computer Science and Data Science enthusiast pursuing a B.Tech degree from Medicaps University, Indore, and a BS degree in Data Science and Application from IIT Madras.}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Ansh Rajani}{ \urlstyle{same} \\
+\href{mailto:anshrajani123@gmail.com}{anshrajani123@gmail.com} | \href{https://sites.google.com/ds.study.iitm.ac.in/ansh-r/home?authuser=0}{\bf ansh-r} | +91-8770887600 | 
+}
 
-\cvitem{}{\textbf{Skills:} Proficient in Python and C, with a keen interest in data analytics.\newline Utilizes tools like Pandas, NumPy, and Matplotlib for effective data processing and visualization. Excellent in English communication.}
-\cvitem{}{\textbf{Aspiration:} Eager to apply my skills in a dynamic environment that encourages creativity and innovation. Committed to continuous learning and actively seeks opportunities to expand knowledge and contribute to impactful projects.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education}
-\cventry{}{B.Tech in Computer Science and Engineering (2nd year)}{Medicaps University}{Indore, India}{}{\textit{CGPA: 7.52/10.0}\newline}
-\cventry{}{BS in Data Science and Application}{IIT Madras}{Chennai, India}{}{\textit{CGPA: 7.8/10.0}\newline}
+\begin{minipage}[t]{0.33\textwidth} 
 
-\pagebreak % Force a page break here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\pagecolor{black!100}
+\color{white!100}
+\section{Education} 
 
-\section{Skills}
+\subsection{IIT Madras}
+\descript{Bachelor of Science in Data Science}
+\location{june 2026 | Madras, IN}
+\location{ Cum. GPA: 7.52 / 10.0}
+\sectionsep
+
+\subsection{Medicaps University}
+\descript{B.tech in Computer Science}
+\location{june 2026 | Indore, IN}
+
+
+\location{ Cum. GPA: 7.82 / 10.0 }
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/Ansh-R-8}{\bf Ansh-R-8} \\
+LinkedIn://  \href{https://www.linkedin.com/in/ansh-r/}{\bf ansh-r}\\
+Website:// \href{https://sites.google.com/ds.study.iitm.ac.in/ansh-r/home?authuser=0}{\bf ansh-r}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{SKILLS}
 \subsection{Programming}
-\cvitem{}{\faCode{} C, \faPython{} Python, OOP}
+\textbullet{} Python \\
+\textbullet{} C \\
+\textbullet{} C++ \\
+\textbullet{} Pandas\\
+\textbullet{} Machine Learning Foundations \\
+\textbullet{} Computational Thinking \\
+\sectionsep
 
-\subsection{Data Analytics}
-\cvitem{}{\textbf{Tools:} Pandas, NumPy, Matplotlib, Microsoft Excel}
+\subsection{QUANTITAVE SKILLS}
+\textbullet{} Mathematics \\
+\textbullet{} Advanced Statistics \\
+\textbullet{} Business Data Management \\
+\textbullet{} Problem Solving  \\
+\textbullet{} Critical Thinking \\
+\sectionsep
 
-\subsection{Communication}
-\cvitem{}{English}
-
-\section{\Large Projects} % Increased font size
-\cventry{}{Snake Game using Python:}{}{}{}{\vspace{12pt}}{\large Developed a classic Snake Game using Python and the Pygame library. Implemented features like snake movement, collision detection, and score tracking. The game provides an interactive and enjoyable user experience.}{\vspace{12pt}}
-\subsection{Google Collab Notebook}
-\cvitem{\faGoogle}{\href{https://colab.research.google.com/}{https://colab.research.google.com/drive/1u0nJis2FDOCKTRHz-dUnMBWnQ4xgmC63?usp=sharing}}{\vspace{6pt}}{\large Made a google collab notebook which contains notes of OOP using pandas Dataframe.}
-\section{Hobbies}
-\cvitem{}{\begin{itemize}
-    \item[\faChevronRight] \textbf{Aptitude Challenges}
-    \item[\faChevronRight] \textbf{Sports: Football and Badminton}
-    \item[\faChevronRight] \textbf{Gardening}
-\end{itemize}}
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\vspace{12pt} % Adjust the value (12pt) to increase or decrease the gap
+\subsection{Tools}
+\textbullet{} Microsoft Excel \\
+\textbullet{} Matplotlib \\
+\textbullet{} Numpy \\
+\sectionsep
 
-\end{document}
+\section{LANGUAGES}
+Hindi(Fluent) \\
+English(Proficient) \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{customcolor}{RGB}{70,130,180}
+\section*{About Me}
+\textcolor{customcolor}{\fontsize{12.5}{15}\selectfont
+\begin{itemize}
+    \itemsep0em
+    \item A dedicated \textbf{Computer Science Engineering} student with a \\passion for exploring the possibilities within the realm of technology.
+    \item Currently pursuing a \textbf{Bachelor of Technology degree} at Medicaps University and \textbf{Bachelor of Science in Data Science} at the Indian Institute of Technology Madras.
+    \item Building a robust foundation in programming, focusing on \textbf{{Python, C, and Object-Oriented Programming}}.
+    \item In the early stages of my academic journey, the combination of computer science and data science studies equips me with a diverse skill set.
+    \item Eager to contribute my skills to meaningful projects, I bring a proactive mindset and a commitment to learning.
+    \item Continually expanding my knowledge and embracing the challenges that come with the dynamic fields of computer science and data science.
+\end{itemize}
+}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{EXPLORATORY DATA ANALYSIS}
+\descript{| PYTHON | PACKAGES : Pandas, Numpy and Matplotlib}
+\location{Dec 2023 – Jan 2024 | Self}
+-Currently working on it \\ -EDA plays a key role in Data analysis process as it helps us to make sense of our data \\ -Involves visualizing for better Exploration. 
+\sectionsep
+
+\runsubsection{Snake Game}
+\descript{| PYTHON}
+\location{Sept 2023 – Sept 2023 | Self}
+- Here I've used python and pygame library to develop a classic snake game.\\ - Implemented features like Snake movement, collision detection, and score tracking.  
+\sectionsep
+
+\runsubsection{\href{https://sites.google.com/ds.study.iitm.ac.in/ansh-r?usp=sharing}{PROBABILITY DISTRIBUTION}}
+\descript{| Statistics}
+\location{Oct 2022 – Oct 2022 | Self}
+- Here I've taken a Dataset which relates to Australia's cricket players and the runs scored by them.\\
+- Calculated the probability of hitting fours.\\
+- Checking whether it follows uniform distribution or not.
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{CERTIFICATIONS} 
+\begin{tabular}{rll}
+ \hspace{1cm} \descript{IIT Madras}  & \href{https://sites.google.com/ds.study.iitm.ac.in/ansh-r/home?authuser=0}{Foundation level in Programming and Data Science}\\
+\hspace{1cm} \descript{IIT Madras} & \href{https://sites.google.com/ds.study.iitm.ac.in/ansh-r/home?authuser=0}{Programming in Python}\\
+\hspace{1cm} \descript{SkillUP} & \href{https://sites.google.com/ds.study.iitm.ac.in/ansh-r/home?authuser=0}{Microsoft Excel}
+
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
