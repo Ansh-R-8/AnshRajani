@@ -15,11 +15,6 @@
 | [<img src="https://camo.githubusercontent.com/07e61cd7433801837014ce58135161e8baf8512c554f84ab33daee54adcf94ce/68747470733a2f2f696d672e69636f6e73382e636f6d2f666c75656e742f35302f3030303030302f6d7973716c2d6c6f676f2e706e67" alt="mysql" width="34">](https://www.mysql.com/)
 
 ## 📊 My Github Stats:
-<br/><br/>
 
 [![Ansh Rajani's github stats](https://github-readme-stats.vercel.app/api?username=Ansh-R-8&show_icons=true)](https://github.com/Ansh-R-8)
 
-
-<br/>
-
-<br/>
