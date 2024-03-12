@@ -1,5 +1,4 @@
 <img src="https://raw.githubusercontent.com/Ansh-R-8/AnshRajani/7e657fdfd4cd179c000cab38a3460c0873ebf832/svg.svg" alt="Hey, I'm Ansh"/>
-
 # 🙋‍♂️ About Me
 
 👋 Hello there! I'm a passionate data enthusiast with a keen focus on machine learning. 💻
