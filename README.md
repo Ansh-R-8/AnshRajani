@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Ansh-R-8/AnshRajani/7e657fdfd4cd179c000cab38a3460c0873ebf832/svg.svg" alt="Hey, I'm Ansh"/>
+<img src="https://raw.githubusercontent.com/Ansh-R-8/AnshRajani/ab494abb7df20fe5ce2137840100d58e89179104/svg.svg" alt="Hey, I'm Ansh"/>
 
 # 🙋‍♂️ About Me
 
