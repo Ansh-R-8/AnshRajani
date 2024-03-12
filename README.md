@@ -19,3 +19,7 @@
 [![Ansh Rajani's github stats](https://github-readme-stats.vercel.app/api?username=Ansh-R-8&show_icons=true)](https://github.com/Ansh-R-8)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ansh-R-8&show_icons=true)
+
+## 🔗 Connect with me
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ansh-r/)
+
