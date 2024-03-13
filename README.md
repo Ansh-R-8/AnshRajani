@@ -16,7 +16,7 @@
 
 ## 📊 My Github Stats:
 
-[![Ansh Rajani's github stats](https://github-readme-stats.vercel.app/api?username=Ansh-R-8&show_icons=true)](https://github.com/Ansh-R-8)
+[![Ansh Rajani's github stats](https://github-readme-stats.vercel.app/api?username=Ansh-R-8&show_icons=true&theme=chartreuse-dark)](https://github.com/Ansh-R-8)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ansh-R-8&show_icons=true)
 
